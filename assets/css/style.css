@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* remove the . since header is now a tag*/
+/* In here you can modified the header*/
 
 header {
     padding: 20px;
@@ -15,17 +15,16 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-/*I rename the tags*/
-
+/*in here we can modified one part of the header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*in here we can modified the color of the second part of the header*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*in here we modified the font of the nav bar*/
 header 
 nav {
     padding-top: 15px;
@@ -34,13 +33,13 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*in here we select the style type for the nav bar*/
 header
 nav 
 ul {
     list-style-type: none;
 }
-
+/*in here we can change the position of the nav items*/
 header
 nav 
 ul 
@@ -48,17 +47,12 @@ li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*change color of the links text*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
-    font-size: 16px;
-}
-/* */
-
+/*we can modified the main image in here*/
 .hero {
     height: 800px;
     width: 100%;
@@ -67,59 +61,27 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*change color of the texts of the main*/
+p {
+    font-size: 16px;
+}
+/*images on the main content float left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*images on the main content float right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Main content box*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3  {
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img   {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-    
-}
-
+/*handle the main content fo the font properties*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing  {
@@ -131,20 +93,55 @@ aside {
     color: #ffffff;
     
 }
-
+/*handle the main content images properties*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img{
     max-height: 200px;
 }
-
+/*handle the tittle of the main content*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*in here are the text properties for the right side bar*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*in here are the box properties for the right side bar*/
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
 
+}
+/*in here are the titles properties for the right side bar*/
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3  {
+    margin-bottom: 10px;
+    text-align: center;
+    }
+/*in here are the images properties for the right side bar*/
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img   {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    }
+
+/*handle the footer of the page*/
 footer {
     padding: 30px;
     clear: both;
