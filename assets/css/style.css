@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+/* remove the . since header is now a tag*/
 
 header {
     padding: 20px;
@@ -14,16 +15,19 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+/*I rename the tags*/
 
-.header h1,.header h1 .seo {
+header h1 {
     display: inline-block;
     font-size: 48px;
+}
+
+header h1 .seo {
     color: #d9dcd6;
 }
 
-
-
-.nav {
+header 
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -31,10 +35,18 @@ header {
     font-size: 20px;
 }
 
-.nav ul,nav ul li {
+header
+nav 
+ul {
     list-style-type: none;
+}
+
+header
+nav 
+ul 
+li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 a {
@@ -45,6 +57,7 @@ a {
 p {
     font-size: 16px;
 }
+/* */
 
 .hero {
     height: 800px;
@@ -87,10 +100,7 @@ aside {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-    margin-bottom: 32px;
-    color: #ffffff;
-    margin-bottom: 32px;
-    color: #ffffff;
+
 }
 
 .benefit-lead h3,
